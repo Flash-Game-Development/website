@@ -1,0 +1,26 @@
+#imgabt {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #d8dbee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-container {
+    width: 80%;
+    max-width: 800px;
+    min-height: 500px;
+    padding: 40px;
+    
+    background-color: #ffffff;
+    border: 5px outset #cccccc;
+    
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
