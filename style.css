@@ -10,7 +10,7 @@ body {
     align-items: center;
     min-height: 100vh; 
     background-color: #d8dbee;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
 .page-container {
@@ -23,4 +23,24 @@ body {
     border: 5px outset #cccccc;
     
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  gap: 20px; 
+  padding: 15px;
+  border-radius: 8px;
+}
+
+li a {
+  text-decoration: none;
+  color: #5077c4;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  color: #007bff;
+  text-decoration: underline;
 }
