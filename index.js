@@ -38,6 +38,12 @@ function drawLoop(){
 
     ctx.clearRect(0, 0, c.width, c.height);
 
+    ctx.beginPath();
+    ctx.rect(0, 0, c.width, c.height);
+    ctx.fillStyle = "lightgrey";
+    ctx.fill();
+    ctx.closePath();
+
     switch (gameState) {
         case "MAINMENU":
             drawMainMenu();
@@ -84,7 +90,7 @@ function drawGame(){
 
             ctx.beginPath();
             ctx.rect(brick.x, brick.y, brick.width, brick.height);
-            ctx.fillStyle = "lightblue";
+            ctx.fillStyle = "#3a42d9";
             ctx.fill();
             ctx.closePath();
 
